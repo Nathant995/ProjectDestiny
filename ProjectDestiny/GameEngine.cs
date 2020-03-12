@@ -6,8 +6,17 @@ using System.Threading.Tasks;
 
 namespace ProjectDestiny
 {
-    class GameEngine
+    public class GameEngine : fmGameMenu
     {
-           //To Be Written 
+        public GameEngine(Action initializeComponent)
+        {
+            Console.WriteLine("Game Engine hooked...");
+        }
+
+        private void Start()
+        {
+            Console.WriteLine("Game Engine hooked...");
+        }
+           
     }
 }

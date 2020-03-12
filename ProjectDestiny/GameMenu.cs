@@ -58,7 +58,8 @@ namespace ProjectDestiny
 
         private void btnMenuSP_Click(object sender, EventArgs e)
         {
-
+            Console.WriteLine("Loading SinglePlayer...");
+            GameEngine engine = new GameEngine(InitializeComponent);
         }
     }
 }   
