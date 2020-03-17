@@ -32,7 +32,7 @@ namespace ProjectDestiny
         {
             WMPLib.WindowsMediaPlayer wplayer = new WMPLib.WindowsMediaPlayer();
 
-            wplayer.URL = @"C:\Users\Natha\source\repos\ProjectDestiny\ProjectDestiny\Data\Media\Music\Haywrye1.mp3";
+            wplayer.URL = @"http://s3rvhub.co.uk/s3rver/gamepack/music/intro1.mp3";// For Local - "C:\Users\Natha\source\repos\ProjectDestiny\ProjectDestiny\Data\Media\Music\Haywrye1.mp3";
             wplayer.controls.play();
         }
 
